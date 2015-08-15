@@ -43,9 +43,14 @@
             <objects>
                 <notificationController id="YCC-NB-fut">
                     <items>
-                        <label alignment="left" text="Alert Label" id="XkS-y5-khE"/>
+                        <group width="1" alignment="left" id="b0g-wi-rRZ">
+                            <items>
+                                <imageView alignment="left" image="alice.jpg" id="Eh9-fc-JRs"/>
+                            </items>
+                        </group>
+                        <label alignment="left" text="進捗どうですか" id="XkS-y5-khE"/>
                     </items>
-                    <notificationCategory key="notificationCategory" identifier="myCategory" id="JfB-70-Muf"/>
+                    <notificationCategory key="notificationCategory" identifier="shinchoku" id="JfB-70-Muf"/>
                     <connections>
                         <outlet property="notificationAlertLabel" destination="XkS-y5-khE" id="49B-RR-99y"/>
                         <segue destination="gdX-wl-uQE" kind="relationship" relationship="dynamicNotificationInterface" id="fKh-qV-3T2"/>
@@ -57,7 +62,15 @@
         <!--Notification Controller-->
         <scene sceneID="KIl-fV-djm">
             <objects>
-                <controller id="gdX-wl-uQE" customClass="NotificationController" customModule="Shinchoku_WatchKit_App" customModuleProvider="target"/>
+                <controller id="gdX-wl-uQE" customClass="NotificationController" customModule="Shinchoku_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <group width="1" alignment="left" id="4ag-Ky-y5h">
+                            <items>
+                                <imageView alignment="left" image="alice.jpg" id="8r5-oi-anq"/>
+                            </items>
+                        </group>
+                    </items>
+                </controller>
             </objects>
             <point key="canvasLocation" x="553" y="1001"/>
         </scene>
