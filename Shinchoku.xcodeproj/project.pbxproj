@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		136D04921B7EF4BA0081DD42 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136D04911B7EF4BA0081DD42 /* AppDelegate.swift */; };
+		136D04941B7EF4BA0081DD42 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136D04931B7EF4BA0081DD42 /* ViewController.swift */; };
+		136D04971B7EF4BA0081DD42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 136D04951B7EF4BA0081DD42 /* Main.storyboard */; };
+		136D04991B7EF4BA0081DD42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 136D04981B7EF4BA0081DD42 /* Assets.xcassets */; };
+		136D049C1B7EF4BA0081DD42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 136D049A1B7EF4BA0081DD42 /* LaunchScreen.storyboard */; };
+		136D04A11B7EF4BA0081DD42 /* Shinchoku WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 136D04A01B7EF4BA0081DD42 /* Shinchoku WatchKit App.app */; };
+		136D04A71B7EF4BA0081DD42 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 136D04A51B7EF4BA0081DD42 /* Interface.storyboard */; };
+		136D04A91B7EF4BA0081DD42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 136D04A81B7EF4BA0081DD42 /* Assets.xcassets */; };
+		136D04B01B7EF4BA0081DD42 /* Shinchoku WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 136D04AF1B7EF4BA0081DD42 /* Shinchoku WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		136D04B71B7EF4BA0081DD42 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136D04B61B7EF4BA0081DD42 /* InterfaceController.swift */; };
+		136D04B91B7EF4BA0081DD42 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136D04B81B7EF4BA0081DD42 /* ExtensionDelegate.swift */; };
+		136D04BB1B7EF4BA0081DD42 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136D04BA1B7EF4BA0081DD42 /* NotificationController.swift */; };
+		136D04BD1B7EF4BA0081DD42 /* GlanceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136D04BC1B7EF4BA0081DD42 /* GlanceController.swift */; };
+		136D04BF1B7EF4BA0081DD42 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136D04BE1B7EF4BA0081DD42 /* ComplicationController.swift */; };
+		136D04C11B7EF4BA0081DD42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 136D04C01B7EF4BA0081DD42 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		136D04A21B7EF4BA0081DD42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 136D04861B7EF4BA0081DD42 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 136D049F1B7EF4BA0081DD42;
+			remoteInfo = "Shinchoku WatchKit App";
+		};
+		136D04B11B7EF4BA0081DD42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 136D04861B7EF4BA0081DD42 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 136D04AE1B7EF4BA0081DD42;
+			remoteInfo = "Shinchoku WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		136D04C81B7EF4BA0081DD42 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				136D04B01B7EF4BA0081DD42 /* Shinchoku WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		136D04CC1B7EF4BA0081DD42 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				136D04A11B7EF4BA0081DD42 /* Shinchoku WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		136D048E1B7EF4BA0081DD42 /* Shinchoku.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shinchoku.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		136D04911B7EF4BA0081DD42 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		136D04931B7EF4BA0081DD42 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		136D04961B7EF4BA0081DD42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		136D04981B7EF4BA0081DD42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		136D049B1B7EF4BA0081DD42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		136D049D1B7EF4BA0081DD42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		136D04A01B7EF4BA0081DD42 /* Shinchoku WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shinchoku WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		136D04A61B7EF4BA0081DD42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		136D04A81B7EF4BA0081DD42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		136D04AA1B7EF4BA0081DD42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		136D04AF1B7EF4BA0081DD42 /* Shinchoku WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Shinchoku WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		136D04B51B7EF4BA0081DD42 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		136D04B61B7EF4BA0081DD42 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		136D04B81B7EF4BA0081DD42 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		136D04BA1B7EF4BA0081DD42 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		136D04BC1B7EF4BA0081DD42 /* GlanceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlanceController.swift; sourceTree = "<group>"; };
+		136D04BE1B7EF4BA0081DD42 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		136D04C01B7EF4BA0081DD42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		136D04C21B7EF4BA0081DD42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		136D048B1B7EF4BA0081DD42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		136D04AC1B7EF4BA0081DD42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		136D04851B7EF4BA0081DD42 = {
+			isa = PBXGroup;
+			children = (
+				136D04901B7EF4BA0081DD42 /* Shinchoku */,
+				136D04A41B7EF4BA0081DD42 /* Shinchoku WatchKit App */,
+				136D04B31B7EF4BA0081DD42 /* Shinchoku WatchKit Extension */,
+				136D048F1B7EF4BA0081DD42 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		136D048F1B7EF4BA0081DD42 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				136D048E1B7EF4BA0081DD42 /* Shinchoku.app */,
+				136D04A01B7EF4BA0081DD42 /* Shinchoku WatchKit App.app */,
+				136D04AF1B7EF4BA0081DD42 /* Shinchoku WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		136D04901B7EF4BA0081DD42 /* Shinchoku */ = {
+			isa = PBXGroup;
+			children = (
+				136D04911B7EF4BA0081DD42 /* AppDelegate.swift */,
+				136D04931B7EF4BA0081DD42 /* ViewController.swift */,
+				136D04951B7EF4BA0081DD42 /* Main.storyboard */,
+				136D04981B7EF4BA0081DD42 /* Assets.xcassets */,
+				136D049A1B7EF4BA0081DD42 /* LaunchScreen.storyboard */,
+				136D049D1B7EF4BA0081DD42 /* Info.plist */,
+			);
+			path = Shinchoku;
+			sourceTree = "<group>";
+		};
+		136D04A41B7EF4BA0081DD42 /* Shinchoku WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				136D04A51B7EF4BA0081DD42 /* Interface.storyboard */,
+				136D04A81B7EF4BA0081DD42 /* Assets.xcassets */,
+				136D04AA1B7EF4BA0081DD42 /* Info.plist */,
+			);
+			path = "Shinchoku WatchKit App";
+			sourceTree = "<group>";
+		};
+		136D04B31B7EF4BA0081DD42 /* Shinchoku WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				136D04B61B7EF4BA0081DD42 /* InterfaceController.swift */,
+				136D04B81B7EF4BA0081DD42 /* ExtensionDelegate.swift */,
+				136D04BA1B7EF4BA0081DD42 /* NotificationController.swift */,
+				136D04BC1B7EF4BA0081DD42 /* GlanceController.swift */,
+				136D04BE1B7EF4BA0081DD42 /* ComplicationController.swift */,
+				136D04C01B7EF4BA0081DD42 /* Assets.xcassets */,
+				136D04C21B7EF4BA0081DD42 /* Info.plist */,
+				136D04B41B7EF4BA0081DD42 /* Supporting Files */,
+			);
+			path = "Shinchoku WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		136D04B41B7EF4BA0081DD42 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				136D04B51B7EF4BA0081DD42 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		136D048D1B7EF4BA0081DD42 /* Shinchoku */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 136D04CD1B7EF4BA0081DD42 /* Build configuration list for PBXNativeTarget "Shinchoku" */;
+			buildPhases = (
+				136D048A1B7EF4BA0081DD42 /* Sources */,
+				136D048B1B7EF4BA0081DD42 /* Frameworks */,
+				136D048C1B7EF4BA0081DD42 /* Resources */,
+				136D04CC1B7EF4BA0081DD42 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				136D04A31B7EF4BA0081DD42 /* PBXTargetDependency */,
+			);
+			name = Shinchoku;
+			productName = Shinchoku;
+			productReference = 136D048E1B7EF4BA0081DD42 /* Shinchoku.app */;
+			productType = "com.apple.product-type.application";
+		};
+		136D049F1B7EF4BA0081DD42 /* Shinchoku WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 136D04C91B7EF4BA0081DD42 /* Build configuration list for PBXNativeTarget "Shinchoku WatchKit App" */;
+			buildPhases = (
+				136D049E1B7EF4BA0081DD42 /* Resources */,
+				136D04C81B7EF4BA0081DD42 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				136D04B21B7EF4BA0081DD42 /* PBXTargetDependency */,
+			);
+			name = "Shinchoku WatchKit App";
+			productName = "Shinchoku WatchKit App";
+			productReference = 136D04A01B7EF4BA0081DD42 /* Shinchoku WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		136D04AE1B7EF4BA0081DD42 /* Shinchoku WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 136D04C51B7EF4BA0081DD42 /* Build configuration list for PBXNativeTarget "Shinchoku WatchKit Extension" */;
+			buildPhases = (
+				136D04AB1B7EF4BA0081DD42 /* Sources */,
+				136D04AC1B7EF4BA0081DD42 /* Frameworks */,
+				136D04AD1B7EF4BA0081DD42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Shinchoku WatchKit Extension";
+			productName = "Shinchoku WatchKit Extension";
+			productReference = 136D04AF1B7EF4BA0081DD42 /* Shinchoku WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		136D04861B7EF4BA0081DD42 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = mzp;
+				TargetAttributes = {
+					136D048D1B7EF4BA0081DD42 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					136D049F1B7EF4BA0081DD42 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					136D04AE1B7EF4BA0081DD42 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 136D04891B7EF4BA0081DD42 /* Build configuration list for PBXProject "Shinchoku" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 136D04851B7EF4BA0081DD42;
+			productRefGroup = 136D048F1B7EF4BA0081DD42 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				136D048D1B7EF4BA0081DD42 /* Shinchoku */,
+				136D049F1B7EF4BA0081DD42 /* Shinchoku WatchKit App */,
+				136D04AE1B7EF4BA0081DD42 /* Shinchoku WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		136D048C1B7EF4BA0081DD42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				136D049C1B7EF4BA0081DD42 /* LaunchScreen.storyboard in Resources */,
+				136D04991B7EF4BA0081DD42 /* Assets.xcassets in Resources */,
+				136D04971B7EF4BA0081DD42 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		136D049E1B7EF4BA0081DD42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				136D04A91B7EF4BA0081DD42 /* Assets.xcassets in Resources */,
+				136D04A71B7EF4BA0081DD42 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		136D04AD1B7EF4BA0081DD42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				136D04C11B7EF4BA0081DD42 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		136D048A1B7EF4BA0081DD42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				136D04941B7EF4BA0081DD42 /* ViewController.swift in Sources */,
+				136D04921B7EF4BA0081DD42 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		136D04AB1B7EF4BA0081DD42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				136D04BB1B7EF4BA0081DD42 /* NotificationController.swift in Sources */,
+				136D04B91B7EF4BA0081DD42 /* ExtensionDelegate.swift in Sources */,
+				136D04BF1B7EF4BA0081DD42 /* ComplicationController.swift in Sources */,
+				136D04B71B7EF4BA0081DD42 /* InterfaceController.swift in Sources */,
+				136D04BD1B7EF4BA0081DD42 /* GlanceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		136D04A31B7EF4BA0081DD42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 136D049F1B7EF4BA0081DD42 /* Shinchoku WatchKit App */;
+			targetProxy = 136D04A21B7EF4BA0081DD42 /* PBXContainerItemProxy */;
+		};
+		136D04B21B7EF4BA0081DD42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 136D04AE1B7EF4BA0081DD42 /* Shinchoku WatchKit Extension */;
+			targetProxy = 136D04B11B7EF4BA0081DD42 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		136D04951B7EF4BA0081DD42 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				136D04961B7EF4BA0081DD42 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		136D049A1B7EF4BA0081DD42 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				136D049B1B7EF4BA0081DD42 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		136D04A51B7EF4BA0081DD42 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				136D04A61B7EF4BA0081DD42 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		136D04C31B7EF4BA0081DD42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		136D04C41B7EF4BA0081DD42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		136D04C61B7EF4BA0081DD42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				INFOPLIST_FILE = "Shinchoku WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.mzp.Shinchoku.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		136D04C71B7EF4BA0081DD42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				INFOPLIST_FILE = "Shinchoku WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.mzp.Shinchoku.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		136D04CA1B7EF4BA0081DD42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = Shinchoku_WatchKit_Extension;
+				INFOPLIST_FILE = "Shinchoku WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.mzp.Shinchoku.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		136D04CB1B7EF4BA0081DD42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = Shinchoku_WatchKit_Extension;
+				INFOPLIST_FILE = "Shinchoku WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.mzp.Shinchoku.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		136D04CE1B7EF4BA0081DD42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Shinchoku/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.mzp.Shinchoku;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		136D04CF1B7EF4BA0081DD42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Shinchoku/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.mzp.Shinchoku;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		136D04891B7EF4BA0081DD42 /* Build configuration list for PBXProject "Shinchoku" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				136D04C31B7EF4BA0081DD42 /* Debug */,
+				136D04C41B7EF4BA0081DD42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		136D04C51B7EF4BA0081DD42 /* Build configuration list for PBXNativeTarget "Shinchoku WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				136D04C61B7EF4BA0081DD42 /* Debug */,
+				136D04C71B7EF4BA0081DD42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		136D04C91B7EF4BA0081DD42 /* Build configuration list for PBXNativeTarget "Shinchoku WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				136D04CA1B7EF4BA0081DD42 /* Debug */,
+				136D04CB1B7EF4BA0081DD42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		136D04CD1B7EF4BA0081DD42 /* Build configuration list for PBXNativeTarget "Shinchoku" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				136D04CE1B7EF4BA0081DD42 /* Debug */,
+				136D04CF1B7EF4BA0081DD42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 136D04861B7EF4BA0081DD42 /* Project object */;
+}
