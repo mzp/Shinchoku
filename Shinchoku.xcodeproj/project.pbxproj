@@ -22,6 +22,8 @@
 		136D04BD1B7EF4BA0081DD42 /* GlanceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136D04BC1B7EF4BA0081DD42 /* GlanceController.swift */; };
 		136D04BF1B7EF4BA0081DD42 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136D04BE1B7EF4BA0081DD42 /* ComplicationController.swift */; };
 		136D04C11B7EF4BA0081DD42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 136D04C01B7EF4BA0081DD42 /* Assets.xcassets */; };
+		136D04D11B7F14FA0081DD42 /* alice.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 136D04D01B7F14FA0081DD42 /* alice.jpg */; };
+		136D04D21B7F14FA0081DD42 /* alice.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 136D04D01B7F14FA0081DD42 /* alice.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +89,7 @@
 		136D04BE1B7EF4BA0081DD42 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
 		136D04C01B7EF4BA0081DD42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		136D04C21B7EF4BA0081DD42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		136D04D01B7F14FA0081DD42 /* alice.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = alice.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +146,7 @@
 		136D04A41B7EF4BA0081DD42 /* Shinchoku WatchKit App */ = {
 			isa = PBXGroup;
 			children = (
+				136D04D01B7F14FA0081DD42 /* alice.jpg */,
 				136D04A51B7EF4BA0081DD42 /* Interface.storyboard */,
 				136D04A81B7EF4BA0081DD42 /* Assets.xcassets */,
 				136D04AA1B7EF4BA0081DD42 /* Info.plist */,
@@ -286,6 +290,7 @@
 			files = (
 				136D04A91B7EF4BA0081DD42 /* Assets.xcassets in Resources */,
 				136D04A71B7EF4BA0081DD42 /* Interface.storyboard in Resources */,
+				136D04D11B7F14FA0081DD42 /* alice.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,6 +298,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				136D04D21B7F14FA0081DD42 /* alice.jpg in Resources */,
 				136D04C11B7EF4BA0081DD42 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
