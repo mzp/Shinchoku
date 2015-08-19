@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		13269DA41B84AA10003E43B2 /* RepeatNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13269DA31B84AA10003E43B2 /* RepeatNotification.swift */; };
+		13269DA61B84AB8E003E43B2 /* NSDate+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13269DA51B84AB8E003E43B2 /* NSDate+Extension.swift */; };
 		136D04921B7EF4BA0081DD42 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136D04911B7EF4BA0081DD42 /* AppDelegate.swift */; };
 		136D04941B7EF4BA0081DD42 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136D04931B7EF4BA0081DD42 /* ViewController.swift */; };
-		136D04971B7EF4BA0081DD42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 136D04951B7EF4BA0081DD42 /* Main.storyboard */; };
 		136D04991B7EF4BA0081DD42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 136D04981B7EF4BA0081DD42 /* Assets.xcassets */; };
 		136D049C1B7EF4BA0081DD42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 136D049A1B7EF4BA0081DD42 /* LaunchScreen.storyboard */; };
 		136D04A11B7EF4BA0081DD42 /* Shinchoku WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 136D04A01B7EF4BA0081DD42 /* Shinchoku WatchKit App.app */; };
@@ -69,10 +70,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		13269DA31B84AA10003E43B2 /* RepeatNotification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepeatNotification.swift; sourceTree = "<group>"; };
+		13269DA51B84AB8E003E43B2 /* NSDate+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSDate+Extension.swift"; sourceTree = "<group>"; };
 		136D048E1B7EF4BA0081DD42 /* Shinchoku.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shinchoku.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		136D04911B7EF4BA0081DD42 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		136D04931B7EF4BA0081DD42 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		136D04961B7EF4BA0081DD42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		136D04981B7EF4BA0081DD42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		136D049B1B7EF4BA0081DD42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		136D049D1B7EF4BA0081DD42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -134,8 +136,9 @@
 			isa = PBXGroup;
 			children = (
 				136D04911B7EF4BA0081DD42 /* AppDelegate.swift */,
+				13269DA31B84AA10003E43B2 /* RepeatNotification.swift */,
+				13269DA51B84AB8E003E43B2 /* NSDate+Extension.swift */,
 				136D04931B7EF4BA0081DD42 /* ViewController.swift */,
-				136D04951B7EF4BA0081DD42 /* Main.storyboard */,
 				136D04981B7EF4BA0081DD42 /* Assets.xcassets */,
 				136D049A1B7EF4BA0081DD42 /* LaunchScreen.storyboard */,
 				136D049D1B7EF4BA0081DD42 /* Info.plist */,
@@ -280,7 +283,6 @@
 			files = (
 				136D049C1B7EF4BA0081DD42 /* LaunchScreen.storyboard in Resources */,
 				136D04991B7EF4BA0081DD42 /* Assets.xcassets in Resources */,
-				136D04971B7EF4BA0081DD42 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +312,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13269DA61B84AB8E003E43B2 /* NSDate+Extension.swift in Sources */,
+				13269DA41B84AA10003E43B2 /* RepeatNotification.swift in Sources */,
 				136D04941B7EF4BA0081DD42 /* ViewController.swift in Sources */,
 				136D04921B7EF4BA0081DD42 /* AppDelegate.swift in Sources */,
 			);
@@ -343,14 +347,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		136D04951B7EF4BA0081DD42 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				136D04961B7EF4BA0081DD42 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		136D049A1B7EF4BA0081DD42 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -554,6 +550,7 @@
 				136D04C71B7EF4BA0081DD42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		136D04C91B7EF4BA0081DD42 /* Build configuration list for PBXNativeTarget "Shinchoku WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -562,6 +559,7 @@
 				136D04CB1B7EF4BA0081DD42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		136D04CD1B7EF4BA0081DD42 /* Build configuration list for PBXNativeTarget "Shinchoku" */ = {
 			isa = XCConfigurationList;
@@ -570,6 +568,7 @@
 				136D04CF1B7EF4BA0081DD42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
