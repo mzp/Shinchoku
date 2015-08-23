@@ -121,8 +121,6 @@ class ComplicationController: NSObject, CLKComplicationDataSource {
             handler(utilitarianSmall)
         case .CircularSmall:
             handler(circularSmall)
-        default:
-            ()
         }
     }
     
