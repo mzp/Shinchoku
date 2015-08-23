@@ -23,8 +23,7 @@
 		136D04BD1B7EF4BA0081DD42 /* GlanceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136D04BC1B7EF4BA0081DD42 /* GlanceController.swift */; };
 		136D04BF1B7EF4BA0081DD42 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136D04BE1B7EF4BA0081DD42 /* ComplicationController.swift */; };
 		136D04C11B7EF4BA0081DD42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 136D04C01B7EF4BA0081DD42 /* Assets.xcassets */; };
-		138BCB2E1B853EB200271BA2 /* alice.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 138BCB2D1B853EB200271BA2 /* alice.jpg */; };
-		138BCB2F1B853EB200271BA2 /* alice.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 138BCB2D1B853EB200271BA2 /* alice.jpg */; };
+		13CF74C81B89A15B002936B0 /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = 13CF74C71B89A15B002936B0 /* image.png */; };
 		13D1B52F1B85FB30007BA41B /* mark.png in Resources */ = {isa = PBXBuildFile; fileRef = 13D1B52E1B85FB30007BA41B /* mark.png */; };
 /* End PBXBuildFile section */
 
@@ -92,7 +91,7 @@
 		136D04BE1B7EF4BA0081DD42 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
 		136D04C01B7EF4BA0081DD42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		136D04C21B7EF4BA0081DD42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		138BCB2D1B853EB200271BA2 /* alice.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = alice.jpg; sourceTree = "<group>"; };
+		13CF74C71B89A15B002936B0 /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image.png; sourceTree = "<group>"; };
 		13D1B52E1B85FB30007BA41B /* mark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mark.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -151,7 +150,7 @@
 		136D04A41B7EF4BA0081DD42 /* Shinchoku WatchKit App */ = {
 			isa = PBXGroup;
 			children = (
-				138BCB2D1B853EB200271BA2 /* alice.jpg */,
+				13CF74C71B89A15B002936B0 /* image.png */,
 				136D04A51B7EF4BA0081DD42 /* Interface.storyboard */,
 				136D04A81B7EF4BA0081DD42 /* Assets.xcassets */,
 				136D04AA1B7EF4BA0081DD42 /* Info.plist */,
@@ -295,7 +294,7 @@
 			files = (
 				136D04A91B7EF4BA0081DD42 /* Assets.xcassets in Resources */,
 				136D04A71B7EF4BA0081DD42 /* Interface.storyboard in Resources */,
-				138BCB2E1B853EB200271BA2 /* alice.jpg in Resources */,
+				13CF74C81B89A15B002936B0 /* image.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,7 +302,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				138BCB2F1B853EB200271BA2 /* alice.jpg in Resources */,
 				13D1B52F1B85FB30007BA41B /* mark.png in Resources */,
 				136D04C11B7EF4BA0081DD42 /* Assets.xcassets in Resources */,
 			);

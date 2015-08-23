@@ -29,7 +29,7 @@
                         </group>
                         <group alignment="left" id="uCw-4Q-Ouw">
                             <items>
-                                <imageView alignment="left" image="alice.jpg" id="Gm4-81-mtp"/>
+                                <imageView alignment="left" image="image.png" id="Gm4-81-mtp"/>
                             </items>
                         </group>
                     </items>
@@ -45,7 +45,7 @@
                     <items>
                         <group width="1" alignment="left" id="b0g-wi-rRZ">
                             <items>
-                                <imageView alignment="left" image="alice.jpg" id="Eh9-fc-JRs"/>
+                                <imageView alignment="left" image="image.png" id="Eh9-fc-JRs"/>
                             </items>
                         </group>
                         <label alignment="left" text="進捗どうですか" id="XkS-y5-khE"/>
@@ -66,7 +66,7 @@
                     <items>
                         <group width="1" alignment="left" id="4ag-Ky-y5h">
                             <items>
-                                <imageView alignment="left" image="alice.jpg" id="8r5-oi-anq"/>
+                                <imageView alignment="left" image="image.png" id="8r5-oi-anq"/>
                             </items>
                         </group>
                     </items>
